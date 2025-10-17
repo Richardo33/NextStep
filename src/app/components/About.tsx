@@ -24,7 +24,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen flex flex-col justify-center items-center bg-indigo-50"
+      className="min-h-screen flex flex-col justify-center items-center bg-white"
     >
       <div className="max-w-5xl mx-auto px-6 text-center">
         <Reveal>
