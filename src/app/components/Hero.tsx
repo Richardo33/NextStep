@@ -24,13 +24,11 @@ export default function Hero({
       ref={ref}
       className="relative min-h-screen flex flex-col md:flex-row justify-center items-center text-center bg-indigo-100 px-6"
     >
-      {/* Background pattern */}
       <motion.div
         style={{ y }}
         className="absolute inset-0 bg-[url('/background-pattern.svg')] bg-cover bg-center opacity-30"
       />
 
-      {/* LEFT — Text Content */}
       <motion.div
         style={{ y }}
         className="relative z-10 max-w-xl text-gray-800 md:text-left text-center"
@@ -51,7 +49,6 @@ export default function Hero({
         </Button>
       </motion.div>
 
-      {/* RIGHT — Lottie Animation */}
       <motion.div
         style={{ y }}
         className="relative z-10 w-[320px] md:w-[450px] mt-10 md:mt-0"

@@ -80,7 +80,7 @@ export default function HomePage() {
           </motion.div>
         </AnimatePresence>
       </div>
-      <Footer goToSection={goToSection} />
+      {index === sections.length - 1 && <Footer goToSection={goToSection} />}
     </>
   );
 }
