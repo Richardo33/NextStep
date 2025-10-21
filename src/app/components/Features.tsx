@@ -44,7 +44,7 @@ export default function Features() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
           {features.map((f, i) => (
             <Reveal key={f.title} delay={i * 0.2}>
-              <Card className="hover:shadow-md transition h-full flex flex-col justify-between text-left">
+              <Card className="hover:shadow-md transition h-full flex flex-col justify-between text-left ">
                 <CardHeader className="flex flex-col gap-3">
                   <div>{f.icon}</div>
                   <CardTitle className="text-lg font-semibold">

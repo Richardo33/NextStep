@@ -21,7 +21,7 @@ export default function Workflow() {
     },
     {
       title: "3. Automated Message Delivery",
-      desc: "Personalized follow-up messages are sent automatically via Email or Telegram.",
+      desc: "Personalized follow-up messages are sent automatically via Email",
     },
   ];
 

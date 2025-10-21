@@ -13,7 +13,7 @@ export default function Navbar({
     { label: "Features", index: 1 },
     { label: "Workflow", index: 2 },
     { label: "About", index: 3 },
-    { label: "Contact", index: 4 },
+    { label: "Demo", index: 4 },
   ];
 
   return (
@@ -24,7 +24,7 @@ export default function Navbar({
           onClick={() => goToSection(0)}
         >
           <Image
-            src="/NextStep.png"
+            src="/NexxtStep.png"
             alt="NextStep Logo"
             width={140}
             height={40}
